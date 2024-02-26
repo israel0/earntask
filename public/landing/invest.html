@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Invest</title>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header class="sticky top-0 z-10 bg-black">
+      <div
+        class="flex flex-col lg:flex-row items-center justify-between w-full px-6 lg:px-20 py-2 max-w-[1520px] mx-auto shadow-md"
+      >
+        <div class="flex items-center justify-between w-full lg:w-[15%]">
+          <a href="index.html" class="flex items-center">
+            <img
+              class="w-[100px] lg:w-[120px]"
+              src="images/logo.png"
+              alt="logo"
+            />
+          </a>
+          <div class="switch lg:hidden">
+            <input type="checkbox" id="checkbox" />
+            <label for="checkbox" class="toggle">
+              <div class="bars" id="bar1"></div>
+              <div class="bars" id="bar2"></div>
+              <div class="bars" id="bar3"></div>
+            </label>
+          </div>
+        </div>
+
+        <div>
+          <ul
+            class="menu text-[#fefae0] font-semibold capitalize hidden w-full lg:flex items-center text-sm gap-8"
+          >
+            <li>
+              <a href="index.html">home</a>
+            </li>
+            <li>
+              <a href="about.html">about us</a>
+            </li>
+            <li>
+              <a href="package.html">compensation package</a>
+            </li>
+            <li>
+              <a href="invest.html">invest</a>
+            </li>
+            <li>
+              <a href="contact.html">contact us</a>
+            </li>
+            <div class="flex items-center gap-4">
+              <a href="login.html">
+                <button class="button">Sign in</button>
+              </a>
+              <a href="register.html">
+                <button class="button2">Create account</button>
+              </a>
+            </div>
+          </ul>
+          <ul
+            id="mobile_menu"
+            class="mobile hidden text-gray-200 font-semibold capitalize flex lg:hidden flex-col items-center justify-center gap- text-base py-[1rem] w-[80vw] h-[100svh] animate__animated animate__slideInRight"
+          >
+            <li>
+              <a href="index.html">home</a>
+            </li>
+            <li>
+              <a href="about.html">about us</a>
+            </li>
+            <li>
+              <a href="package.html">compensation package</a>
+            </li>
+            <li>
+              <a href="invest.html">invest</a>
+            </li>
+            <li>
+              <a href="contact.html">contact us</a>
+            </li>
+            <div class="flex flex-col items-center gap-6 w-full">
+              <a href="login.html">
+                <button class="button w-[60vw] lg:w-[0]">Sign in</button>
+              </a>
+              <a href="register.html">
+                <button class="button2 w-[60vw] lg:w-[0]">
+                  Create account
+                </button>
+              </a>
+            </div>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="flex items-center h-[50vh] lg:h-[70svh] bg-[url('./images/slider2.jpg')] bg-cover bg-center bg-no-repeat animate__animated animate__slideInLeft"
+      >
+        <div class="w-full text-white px-6 lg:px-20 max-w-[1520px] mx-auto">
+          <h1 class="text-3xl lg:text-4xl font-extrabold mb-4">
+            Forging a <span class="text-[#fc8400]">Pan African</span> Future
+          </h1>
+          <p class="text-md lg:text-xl lg:w-[40%] text-[#fefae0]">
+            We are excited to present a unique and promising investment
+            opportunity with Paulano Graceland, a visionary enterprise
+            positioned to transform Africa's multi-level marketing landscape.
+          </p>
+          <a href="register.html" class="contactButton mt-10 text-base lg:text-xl">
+            Get started
+            <div class="iconButton">
+              <svg
+                height="24"
+                width="24"
+                viewBox="0 0 24 24"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                  d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                  fill="currentColor"
+                ></path>
+              </svg>
+            </div>
+          </a>
+        </div>
+      </div>
+    </main>
+
+    <section class="pattern">
+      <div
+        class="flex flex-col items-center justify-center text-center gap-6 min-h-screen px-3 py-[4rem] w-full max-w-[1520px] mx-auto"
+      >
+        <h1 class="text-2xl lg:text-4xl font-extrabold text-[#283618]">
+          Business Concept
+        </h1>
+        <p
+          class="text-gray-500 text-base lg:text-md lg:w-[70%] leading-8"
+        >
+          Paulano Graceland epitomizes a forward-thinking approach, blending
+          African tourism, fashion, and real estate within a dynamic MLM
+          venture. Our mission extends beyond product sales; we aim to empower
+          local artisans and showcase Africa's richness through cultural
+          empowerment.ashion designer, an interior decorator, or a DIY
+          enthusiast.
+        </p>
+
+        <div class="flex flex-col gap-8 px-0 lg:px-10 py-[4rem] lg:py-[8rem]">
+          <div class="flex flex-col gap-6 lg:gap-0 lg:flex-row items-center w-full">
+            <div class="basis-1/2 flex items-center justify-center">
+              <img
+                class="rounded-2xl hover:scale-95 duration-500 object-cover h-[400px] w-[500px]"
+                src="images/A Detour to the MarketSteemit.jpg"
+                alt=""
+              />
+            </div>
+            <div
+              class="w-full basis-1/2 flex flex-col gap-3 justify-center items-center"
+            >
+              <h1 class="text-2xl lg:text-3xl font-extrabold text-[#283618]">
+                Business Model
+              </h1>
+              <p class="text-base lg:text-md text-gray-500 leading-8">
+                Our robust binary compensation package empowers distributors,
+                rewarding their sales prowess. Our offerings encompass curated
+                tourism packages, cutting-edge e-commerce showcasing African
+                fashion, exclusive real estate ventures, and an array of
+                indigenous products.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-6 lg:gap-0 lg:flex-row-reverse items-center">
+            <div class="basis-1/2 flex items-center justify-center">
+              <img
+                class="rounded-2xl hover:scale-95 duration-500 object-cover h-[400px] w-[500px]"
+                src="images/Authentic Kente 2,4,6 & 12 yards Genuine Ghana handwoven Kente fabric and Kente Cloth African .jpg"
+                alt=""
+              />
+            </div>
+            <div
+              class="w-full basis-1/2 flex flex-col gap-3 justify-center items-center"
+            >
+              <h1 class="text-2xl lg:text-3xl font-extrabold text-[#283618]">
+                Vision and Mission
+              </h1>
+              <p class="text-base lg:text-md text-gray-500 leading-8 wd-[70%]">
+                Our audacious vision is to lead Africa's MLM realm by weaving
+                consumers into the fabric of authentic African experiences,
+                fashion, and real estate ventures. Our mission revolves around
+                empowering individuals while proudly preserving Africa's
+                cultural heritage across tourism, products, and heritage.s.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-6 lg:gap-0 lg:flex-row items-center w-full">
+            <div class="basis-1/2 flex items-center justify-center">
+              <img
+                class="rounded-2xl hover:scale-95 duration-500 object-cover h-[400px] w-[500px]"
+                src="images/African Fabric Retailer,Wholesaler and Manufacturer from New YorkOnline Fabric Store (1).jpg"
+                alt=""
+              />
+            </div>
+            <div
+              class="w-full basis-1/2 flex flex-col gap-3 justify-center items-center"
+            >
+              <h1 class="text-2xl lg:text-3xl font-extrabold text-[#283618]">
+                Team
+              </h1>
+              <p class="text-base lg:text-md text-gray-500 leading-8 wd-[70%]">
+                Paulano Graceland is led by a visionary leadership team
+                overseeing operations, marketing, finance, sales, technology,
+                and customer support. Our functional teams ensure the seamless
+                execution of our vision.
+              </p>
+            </div>
+          </div>
+          <div class="flex flex-col gap-6 lg:gap-0 lg:flex-row-reverse items-center">
+            <div class="basis-1/2 flex items-center justify-center">
+              <img
+                class="rounded-2xl hover:scale-95 duration-500 object-cover h-[400px] w-[500px]"
+                src="images/Fancy African Fabric by the Yard, Metallic Kente Ankara Print, Dressmaking, Cotton Quilting, S.jpg"
+                alt="image4"
+              />
+            </div>
+            <div
+              class="w-full basis-1/2 flex flex-col gap-3 justify-center items-center"
+            >
+              <h1 class="text-2xl lg:text-3xl font-extrabold text-[#283618]">
+                Go-to-market Strategy
+              </h1>
+              <p class="text-base lg:text-base text-gray-500 leading-8 wd-[70%]">
+                Our strategy includes a robust online presence, leveraging
+                social media, content marketing, and strategic partnerships with
+                influencers. We're also actively engaging in referralships and
+                event participation.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="pattern">
+      <div
+        class="w-full flex items-center justify-center px-3 lg:px-10 pb-[5rem] lg:pb-[10rem] max-w-[1520px] mx-auto"
+      >
+        <div class="basis-1/4 hidden lg:flex justify-center">
+          <img src="images/svgelement.svg" alt="" />
+        </div>
+        <div
+          class="lg:basis-1/2 flex flex-col gap-8 items-center text-center lg:w-[80%]"
+        >
+          <h1 class="text-2xl lg:text-4xl text-[#283618] font-extrabold">
+            Join us Today!
+          </h1>
+          <p class="text-base lg:text-md text-gray-500">
+            Join us in this transformative journey as we revolutionize Africa's
+            MLM landscape while empowering local talent and preserving the
+            continent's cultural richness. We look forward to discussing this
+            exciting investment opportunity further.
+          </p>
+          <a
+            href="register.html"
+            class="px-[10rem] py-4 bg-[#fc8400] hover:bg-[#fdaa4f] text-[#fefae0] text-sm lg:text-md font-bold rounded-full"
+          >
+            Join us
+          </a>
+        </div>
+        <div class="basis-1/4 hidden lg:flex justify-center">
+          <img src="images/svgelement2.svg" alt="" />
+        </div>
+      </div>
+    </section>
+    <footer class="bg-black">
+      <div class="px-6 lg:px-10 py-[4rem] max-w-[1520px] mx-auto">
+        <div
+          class="flex flex-col lg:flex-row lg:justify-between gap-8 lg:gap-0 flex-wrap"
+        >
+          <a href="index.html">
+            <img
+              class="w-[150px] lg:w-[180px]"
+              src="images/logo.png"
+              alt="logo"
+            />
+          </a>
+
+          <div class="flex flex-col gap-4">
+            <h1 class="uppercase text-[#fc8400] text-md font-bold">Company</h1>
+            <ul class="capitalize flex flex-col gap-2 text-sm text-[#fefae0]">
+              <li>
+                <a href="about.html">about</a>
+              </li>
+              <li>
+                <a href="contact.html" target="_blank">contact us</a>
+              </li>
+              <li>
+                <a href="https://eu.docworkspace.com/d/sINr3pIhn9cXMrAY" target="_blank">policy</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col gap-4">
+            <h1 class="uppercase text-[#fc8400] text-md font-bold">
+              Quick links
+            </h1>
+            <ul class="capitalize flex flex-col gap-2 text-sm text-[#fefae0]">
+              <li>
+                <a href="package.html">compensation package</a>
+              </li>
+              <li>
+                <a href="invest.html">Invest in paulano graceland</a>
+              </li>
+              <li>
+                <a href="login.html">login to dashboard</a>
+              </li>
+              <li>
+                <a href="register.html">register now</a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col gap-4">
+            <h1 class="uppercase text-[#fc8400] text-md font-bold">
+              Contact us
+            </h1>
+            <ul class="capitalize flex flex-col gap-2 text-sm text-[#fefae0]">
+              <li>
+                <a href="mailto:support@paulano.com">support@paulano.com</a>
+              </li>
+              <li>
+                <a href="tel:+2348064791719">+234 80 6479 1719</a>
+              </li>
+              <li>
+                <address>24 Ekololu, Surulere Lagos State</address>
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col gap-4">
+            <h1 class="uppercase text-[#fc8400] text-md font-bold">
+              Social media
+            </h1>
+            <ul class="capitalize flex flex-col gap-2 text-sm text-[#fefae0]">
+              <li>
+                <a
+                  href="https://www.instagram.com/everything_pgland/"
+                  target="_blank"
+                >
+                  <i class="bi bi-instagram"></i>
+                  <span>Instagram</span>
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://wa.me/2348066780133"
+                  target="_blank"
+                >
+                  <i class="bi bi-whatsapp"></i>
+                  <span>+234 80 6678 0133</span>
+                </a>
+                <li>
+                  <a
+                    href="https://wa.me/2349151601046"
+                    target="_blank"
+                  >
+                    <i class="bi bi-whatsapp"></i>
+                    <span>+234 91 5160 1046</span>
+                  </a>
+                </li>
+              </li>
+              <li>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61554287084432"
+                  target="_blank"
+                >
+                  <i class="bi bi-facebook"></i>
+                  <span>Facebook</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="flex flex-col gap-4 text-[#fefae0] max-w-[400px]">
+            <h1 class="uppercase text-[#fc8400] text-md font-bold">
+              NewsLetter
+            </h1>
+            <span class=""
+              >Subscribe to our newsletter to get all our news in your
+              inbox.</span
+            >
+            <div class="input-group">
+              <input
+                type="email"
+                class="input"
+                id="Email"
+                name="Email"
+                placeholder="name@email.com"
+                autocomplete="off"
+              />
+              <button class="bg-[#fc8400] p-3 rounded-r-xl">
+                Subscribe
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
