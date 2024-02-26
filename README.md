@@ -1,3 +1,3 @@
-## About Paulano Graceland
+## Earners Project
 
-Paulano Graceland Africa is a multil-level network marketing platform.
+Earn by referral and resales.
